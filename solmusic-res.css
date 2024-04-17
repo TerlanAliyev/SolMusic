@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+header .i{
+    display: none;
+}
+header{
+    width: 100%;
+    padding:45px 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#08192d;
+  
+}
+header li{
+    display: inline-block;
+    font-size:18px;
+    color: white;
+    margin-left:60px;
+    transition: .3s;
+
+}
+header li:hover{
+    color: #FC0254;
+}
+header .sag a{
+    font-size:20px;
+    color: #FC0254;
+    text-decoration: none;
+}
+header .sag #sol{
+    color:#979aa5;       
+}
+header .sag #orta{
+    color: white;
+    padding-right:20px;
+}
+header i{
+    color: white;
+    display: none;
+}
+
+.s1{
+    width: 100%;
+    background-color:#0a183d;
+    display: flex;
+    padding: 110px 10px;
+}
+@keyframes yazi{
+    from{top:-300px;opacity: 0;}
+    to{top:0px;opacity: 1;}
+}
+
+@keyframes yazi1{
+    from{bottom:-100px;opacity: 0;}
+    to{bottom:0px;opacity: 1;}
+}
+.s1 .sol{
+    width:60%;
+    padding:50px 100px;
+    overflow: hidden;
+}
+.s1 .sol h1{
+    font-size: 70px;
+    color: white;
+    animation-name: yazi;
+    animation-duration: 1s;
+    animation-delay:1s;
+    position:relative;
+    z-index: 1;
+
+}
+.s1 .sol p{
+    font-size: 18px;
+    color: white;
+    margin:30px 0px;
+    position:relative;
+    animation-name: yazi;
+    animation-duration:1s;
+    animation-delay:1s;
+}
+.s1 .sag{
+    width: 50%;
+}
+.s1 .sag img{
+    animation-name: yazi;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    position: relative;
+}
+.s1 .sol span{
+    color: #FC0254;
+    position: relative;
+}
+.s1 .sol a{
+    display: inline-block;
+    padding:25px 50px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius:30px;
+    border: none;
+    position: relative;
+    animation-name: yazi1;
+    animation-duration: 1s;
+    animation-delay:1s;
+
+}
+.sol .pink{
+    background-color: #FC0254;
+}
+.sol .blue{
+    background-color: #3c3f74;
+}
+
+
+.s2{
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+}
+.s2 .sol{
+    width: 100%;
+}
+.s2 .sol h1{
+    font-size: 60px;
+    color: #08192d;
+}
+.s2 .sag{
+    width: 100%;
+}
+.s2 .sag p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #979aa5;
+    line-height: 1.8;
+    padding: 0px 40px;
+
+}
+
+.s2 .sag button{
+    padding: 25px 55px;
+    margin:20px 40px;
+    background-color: #FC0254;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.s3{
+    width: 100%;
+    padding: 70px 0px;
+    background-image: url("https://technext.github.io/solmusic/img/how-to-bg.jpg");
+    background-position: center;
+}
+.s3 h1{
+    color: white;
+    font-size: 60px;
+    padding:0px 100px;
+    margin-bottom: 60px;
+}
+.s3 .all{
+    width:95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.s3 .all .info{ 
+    margin-left: 10px;
+    padding: 10px 50px;
+}
+.s3 .all .info .img{
+    width:50px;
+    height:50px;
+    background-color: #FC0254;
+    border-radius: 100%;
+}
+.s3 .all .info img{
+    margin:15px 30px;
+    /* width:45px;
+    height:50px; */
+}
+.s3 .all .info h4{
+    color: white;
+    font-size:25px;
+    margin-bottom:20px;
+    margin-top: 40px;
+}
+.s3 .all .info p{
+    color: white;
+    font-weight: 400;
+    opacity: 0.6;
+    font-size:18px;
+}
+
+.s4{
+    width: 100%;
+    padding: 100px 0px;
+}
+.s4 .top{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.s4 .top h1{
+    font-size:60px;
+    color: #08192d;
+}
+.s4 p{
+    font-size: 20px;
+    color:#6a7080;
+}
+.s4 .bottom{
+    padding-top:80px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.s4 .bottom img{
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+
+.s5{
+    width: 100%;
+    margin: 50px 0px;
+    padding: 100px 50px;
+    background-color: #0a183d;
+    display: flex;
+    align-items: center;
+
+}
+.s5 .sol{
+    width: 50%;
+    margin: 0px 50px;
+
+}
+
+.s5 .sol h1{
+    font-size: 60px;
+    color: white;
+}
+.s5 ul{
+    width: 50%;
+    justify-content: center;
+}
+.s5 .sol h2{
+    margin: 30px 0px;
+    font-size:30px;
+    color: #FC0254;
+    font-weight:700;
+}
+
+.s5 .sol p{
+    color:#979aa5;
+    font-size: 18px;
+}
+
+.s5 .sol button{
+    margin-top: 40px;
+    padding: 30px 60px;
+    background-color: #FC0254;
+    color: white;
+    border:none;
+    border-radius:60px;
+    font-weight:600;
+    cursor: pointer;
+}
+.s5 .sag{
+    width: 50%;
+    text-align: left;
+    border-radius:30px;
+    background-color:#1c294a;
+}
+.s5 li{
+    list-style: none;
+    margin:45px 0px;
+    color:white;
+    font-size:23px;
+}
+.s5 li::before{
+    content:"✔";
+    margin:0px 20px;
+    background-color: #FC0254;
+    border-radius: 100%;
+    padding:1px 5px;
+}
+
+.s6{
+    width:100%;
+    padding:20px 60px;
+}
+.s6 .top{
+    padding: 70px 0px;
+    width:90%;
+    margin: auto;
+    display: flex;
+}
+.s6 .top h1{
+    font-size: 60px;
+    color: #08192d;
+}
+.s6 .top .sol{
+    width:100%;
+}
+.s6 .top .sag{
+    width:100%;
+    height: 100px;
+    text-align: left;
+}
+.s6 .top .sag p{
+    font-size: 18px;
+    color: #6a7080;
+    line-height: 1.8;
+    font-weight: 500;
+}
+.s6 .bottom{
+    width:100%;
+    margin:100px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.s6 .bottom div{
+    width:33%;
+    text-align: center;
+}
+.s6 .bottom div img{
+    border-radius: 100%;
+}
+.s6 .bottom div h1{
+    margin-top:30px;
+    color: #08192d;
+    font-size: 25px;
+}
+.s6 .bottom div p{
+    margin-top: 10px;
+    color: #6a7080;
+    font-size: 18px;
+}
+
+footer{
+    width: 100%;
+    background-color: #0a183d;
+    display: flex;
+    padding: 100px 0px;
+}
+footer .sol{
+    width:45%;
+    margin: auto;
+    margin-left:100px;
+}
+footer .sol p{
+    font-size:13px;
+    color: #6a7080;
+    margin-top:15px;
+}
+footer .sol ul{
+    width:50%;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .sol li{
+    list-style: none;
+    display: inline-block;
+    font-size:20px;
+}
+footer .sol .colo{
+    text-decoration: none;
+    color:#007BFF;
+}
+footer .sol .colo:hover{
+    color:#005abb;
+
+}
+footer .sol .icon{
+    color: #979aa5;
+}
+footer .sag{
+    width:50%;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+footer .sag h3{
+    color: white;
+    margin-bottom: 20px;
+}
+footer .sag a{
+    text-decoration: none;
+    
+}
+
+footer .sag li{
+    color: #979aa5;
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+
+
+@media(max-width:768px){
+    header{
+        align-items: center;
+        padding: 30px 0px;
+    }
+    header .sag{
+        display: none;
+    }
+    header .i{
+        text-decoration: none;
+        padding: 15px 10px;
+        background-color:#0d1722;
+        color: white;
+    }
+    header  ul{
+        display: none;
+    }
+
+    header i{
+        display: none;
+        margin-left: 10px;
+    }
+    .s1{
+        flex-wrap: wrap;
+    }
+    .s1 .sol{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .s1 .sag{
+        display: none;
+    }
+    .s2{
+        flex-wrap: wrap;
+        padding:30px 10px;
+    }
+    .s2 .sol{
+        width: 100%;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+    .s2 .sag{
+        width:100%;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+    .s2 .sag p{
+        font-size: 15px;
+        padding: 30px 0px;
+        display: block;
+    }
+    .s2 .sag button{
+        margin: 0;
+    }
+    .s2 .sol h1{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .s3 h1{
+        font-size: 36px;
+        padding: 0px 10px;
+    }
+    .s3 .all{
+        width: 100%;
+        
+        flex-wrap: wrap;
+    }
+    .s3 .all .info{
+        width: 100%;
+        margin:20px 0px;
+        padding: 0px 10px;
+    }
+    .s4{
+        flex-wrap: wrap;
+        padding: 10px 10px;
+    }
+    .s4 .top{
+        width: 100%;
+        display: block;
+    }
+    .s4 .top h1{
+        font-size: 36px;
+    }
+    .s4 .top h1 br{
+        display: none;
+    }
+    .s4 .top p{
+        margin-top:20px;
+    }
+    .s4 .bottom{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .s4 .bottom div{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .s5{
+        flex-wrap: wrap;
+        padding: 30px 10px;
+        margin: 0px;
+    }
+    .s5 .sol{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .s5 .sol h1{
+        font-size: 36px;
+    }
+    .s5 .sag{
+        width: 100%;
+        margin: 30px 0px;
+        text-align: left;
+    }
+    .s5 .sag li{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .s6{
+        flex-wrap: wrap;
+        padding: 20px 10px;
+    }
+    .s6 .top{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .s6 .top .sol{
+        width: 100%;
+    }
+    .s6 .top .sol h1{
+        font-size: 36px;
+    }
+    .s6 .top  p{
+        margin: 20px 0px;
+        margin-bottom: 20px;
+
+    }
+    .s6 .top .sag{
+        width: 100%;
+    }
+    .s6 .bottom{
+        flex-wrap: wrap;
+    }
+    .s6 .bottom div{
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer{
+        flex-wrap: wrap;
+        padding:30px 20px;
+    }
+    footer .sol{
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer .sag{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    footer .sol{
+        margin:auto;
+    }
+    footer .sag div{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}
